@@ -46,12 +46,11 @@
 Создадим изменения и комментарии для них. Создавать будем текстовые файлы прямо в терминале. Для создания текстовика используем команду `echo hello > change1.txt`, зафиксируем его `git add change1.txt`. Оставим комментарий `git commit -m "Change1.txt"`. Повторем все то же самое еще раз, только название указываем другое - __change2.txt__.
 
 ![](https://github.com/lkjuft24/LR6/blob/master/screen/screen11.PNG)
-
 ![](https://github.com/lkjuft24/LR6/blob/master/screen/screen12.PNG)
 
 Посмотрим комментарии.
 
-![](https://github.com/lkjuft24/LR6/blob/master/screen/screen133.PNG)
+![](https://github.com/lkjuft24/LR6/blob/master/screen/screen13.PNG)
 
 Все сработало, отлично. Теперь сделаем "хард" откат коммита. Вводим `git reset --hard HEAD~1`
 
@@ -64,7 +63,6 @@
 Добавим в наш репозиторий скриншоты работ, которые мы делали паралельно
 
 ![](https://github.com/lkjuft24/LR6/blob/master/screen/screen16.PNG)
-
 ![](https://github.com/lkjuft24/LR6/blob/master/screen/screen17.PNG)
 
 Отчет, написанный в программе Visual Studio Code перемещаем в каталог __LR6__ и не забываем про команды `git add` и `git commit`. 
